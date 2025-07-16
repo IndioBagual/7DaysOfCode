@@ -1,0 +1,57 @@
+.banner {
+    padding: 6em;
+    display: flex;
+    flex-direction: column;
+}
+
+.banner__sobre {
+    font-weight: 600;
+    color: var(--bordo);
+    justify-items: center;
+    margin: auto;
+
+}
+.banner__titulo {
+    color: var(--cinza--escuro);
+    font-weight: 600;
+    font-size: 48px;
+    margin: auto;
+    padding: 1em;
+}
+.banner__texto {
+    font-size: 20px;
+    color: var(--cinza);
+    margin: auto;
+    padding: 1em;
+    text-align: center;
+}
+
+.banner__descricao {
+    padding: 6em;
+    display: flex;
+    gap: 4em;
+}
+
+.banner__lista {
+    padding: 1em;
+
+}
+
+.banner__lista__numeros {
+    font-size: 60px;
+    color: var(--bordo);
+    font-weight: 600;
+    margin-bottom: 0.75em;
+}
+
+.banner__lista__subtitulo {
+    font-size: 18px;
+    font-weight: 500;
+    color: var(--cinza--escuro);
+    margin-bottom: 0.5em;
+
+}
+
+.banner__lista__texto {
+    color: var(--cinza);
+}

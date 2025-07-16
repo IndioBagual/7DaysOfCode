@@ -1,0 +1,45 @@
+.cabecalho {
+    display: flex;
+    align-items: center;
+    position: relative;
+    justify-content: space-between;
+    padding: 1em 5em;
+}
+
+.cabecalho__container {
+    display: flex;
+    align-items: center;
+}
+
+.cabecalho__container__imagem {
+    padding-right: 0.5em;
+}
+
+.cabecalho__container__titulo {
+    color: var(--roxo);
+    font-weight: 500;
+    margin-right: 2em;
+}
+
+.opcoes {
+    display: flex;
+    margin-right: 15em;
+}
+
+.opcoes__botao {
+    font-weight: 500;
+    text-decoration: none;
+    color: var(--cinza);
+    padding: 1em;
+    white-space: nowrap;
+}
+
+.botao__cadastro {
+    background-color: var(--bordo);
+    color: var(--cor-fundo);
+    font-weight: 500;
+    padding: 0.7em 1.5em;
+    border-radius: 8px;
+    text-decoration: none;
+    margin-left: 1em;
+}

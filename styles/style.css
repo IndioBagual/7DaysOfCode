@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+@import url("header.css");
+@import url("banner.css");
+@import url("vagas.css");
+@import url("opiniao.css");
+@import url("rodape.css");
+
+:root {
+    --cor-fundo: #FFF;
+    --roxo: #3A404E;
+    --cinza: #667085;
+    --cinza--escuro: #101828;
+    --fonte-principal: 'Inter', sans-serif;
+    --fonte-secundaria: 'Josefin Sans';
+    --bordo: #8E2424;
+    --bordo-claro: #8E24240D;
+    --preto: #000000;
+    --cinza-claro: #98A2B3;
+    --borda:#EAECF0;
+    --rodape: #F9FAFB;
+    --borda-secundaria: #D0D5DD;
+
+}
+
+body {
+    background-color: var(--cor-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
